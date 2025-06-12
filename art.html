@@ -2,21 +2,81 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Final Project</title>
+    <title>Aneliese's Photos</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google Font Feature -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
     <style>
-      /* Styling Only Related To THIS Page */
+      body {
+        font-family: 'Raleway', sans-serif;
+        background-color: #fff0f5;
+        color: #4b004f;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #ff8ec7;
+      }
+
+      .nav li {
+        float: left;
+      }
+
+      .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+      }
+
+      .nav li a:hover {
+        background-color: #ff65ae;
+      }
+
+      .nav li a.active {
+        background-color: #d94f9d;
+      }
+
+      h1 {
+        text-align: center;
+        color: #d94f9d;
+        margin-top: 30px;
+      }
+
+      .intro-text {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        background-color: #ffe1f0;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        font-size: 1.1em;
+      }
+
       .parent-flex {
         display: flex;
-        background-color: purple;
-        justify-content: space-around;
-        padding: 10px;
-        margin-bottom: 20px;
+        background-color: #ffc6e0;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 20px;
+        max-width: 900px;
+        flex-wrap: wrap;
       }
 
       .parent-flex img {
-        max-width: 30%;
-        border-radius: 10px;
+        max-width: 40%;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
       }
     </style>
   </head>
@@ -25,42 +85,39 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
+      <li><a class="active" href="Photos.html">Photos</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="#"
           ><img
             src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
             style="width: 25px; margin: -5px"
         /></a>
       </li>
       <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="#"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
         /></a>
       </li>
     </ul>
-    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
 
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
+    <h1>My Photos</h1>
+
+    <div class="intro-text">
+      Some of my favorite photos!
     </div>
 
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+      <img src="https://cdn.glitch.global/20d286da-2ce4-413d-9ccc-7d100cb61d34/IMG_0040.JPG?v=1749687152795" />
+      <img src="https://cdn.glitch.global/20d286da-2ce4-413d-9ccc-7d100cb61d34/IMG_3899.JPG?v=1749687181685" />
+    </div>
+
+    <div class="parent-flex">
+      <img src="https://cdn.glitch.global/20d286da-2ce4-413d-9ccc-7d100cb61d34/IMG_0333.JPG?v=1749687199598" />
+      <img src="https://cdn.glitch.global/20d286da-2ce4-413d-9ccc-7d100cb61d34/IMG_7520.jpeg?v=1749687220638" />
     </div>
   </body>
 </html>
