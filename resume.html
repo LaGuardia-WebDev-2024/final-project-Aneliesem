@@ -2,10 +2,82 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Final Project</title>
+    <title>Aneliese's Resume</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google Font Feature -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+
     <style>
-      /* Styling Only Related To THIS Page */
+     
+      body {
+        font-family: 'Raleway', sans-serif;
+        background-color: #fff0f5;
+        color: #4b004f;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #ff8ec7;
+      }
+
+      .nav li {
+        float: left;
+      }
+
+      .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+      }
+
+      .nav li a:hover {
+        background-color: #ff65ae;
+      }
+
+      .nav li a.active {
+        background-color: #d94f9d;
+      }
+
+      h1 {
+        text-align: center;
+        color: #d94f9d;
+        margin-top: 30px;
+      }
+
+      .resume-container {
+        max-width: 800px;
+        margin: 30px auto;
+        background-color: #ffe1f0;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .section {
+        margin-bottom: 30px;
+      }
+
+      .section h2 {
+        color: #b6006b;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+      }
+
+      .section ul {
+        padding-left: 20px;
+      }
+
+      .section ul li {
+        margin-bottom: 10px;
+      }
     </style>
   </head>
   <body>
@@ -13,25 +85,54 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
+      <li><a href="Photos.html">Photos</a></li>
       <li><a class="active" href="resume.html">Resume</a></li>
       <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="#"
           ><img
             src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
             style="width: 25px; margin: -5px"
         /></a>
       </li>
       <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="#"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
         /></a>
       </li>
     </ul>
+
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
     <h1>Resume</h1>
 
+    <div class="resume-container">
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>LaGuardia High School of Music and Art and Performing Arts</strong> – Dance Major</li>
+          <li>Expected Graduation: 2026</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <ul>
+          <li><strong>Dance Performer</strong> – Various showcases and concerts at LaGuardia</li>
+          <li><strong>Choreographer</strong> – Developed original concept pieces based on visual art and emotion</li>
+          <li><strong>Fashion Marketing Intern (Aspiring)</strong> – Passionate about branding, visuals, and storytelling</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Choreography and Creative Direction</li>
+          <li>Strong visual design sense and mood board creation</li>
+          <li>Collaborative, driven, and emotionally intuitive</li>
+          <li>Familiar with Canva, Google Suite, and basic HTML/CSS</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
