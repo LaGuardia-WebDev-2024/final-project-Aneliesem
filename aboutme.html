@@ -2,26 +2,78 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Final Project</title>
+    <title>About Aneliese</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google Font Feature -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+
     <style>
-      /* Styling Only Related To THIS Page */
+
+
+      body {
+        font-family: 'Raleway', sans-serif;
+        background-color: #fff0f5;
+        color: #4b004f;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #ff8ec7;
+      }
+
+      .nav li {
+        float: left;
+      }
+
+      .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+      }
+
+      .nav li a:hover {
+        background-color: #ff65ae;
+      }
+
+      .nav li a.active {
+        background-color: #d94f9d;
+      }
+
       .parent-flex {
         display: flex;
-        background-color: purple;
         align-items: center;
         justify-content: space-around;
-        margin-bottom: 50px;
+        margin: 50px 20px;
+        background-color: #ffc6e0;
+        border-radius: 20px;
+        padding: 20px;
       }
 
       .parent-flex img {
-        width: 150px;
-        padding: 20px;
+        width: 160px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
+
       .child-flex p {
-        background-color: pink;
+        background-color: #ffe1f0;
         padding: 20px;
         margin: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 30px;
+        color: #d94f9d;
       }
     </style>
   </head>
@@ -30,17 +82,17 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a class="active" href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
+      <li><a href="Photos.html">Photos</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="#"
           ><img
             src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
             style="width: 25px; margin: -5px"
         /></a>
       </li>
       <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="#"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
@@ -50,41 +102,34 @@
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
     <h1>About Me</h1>
+
     <div class="parent-flex">
       <div class="child-flex">
         <img
           src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+          alt="Aneliese Photos"
         />
       </div>
       <div class="child-flex">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+          Hi, I’m Aneliese! I’m a student at LaGuardia High School, majoring in dance. Movement has been a part of me since I was four years old, and I’ve poured my heart into every step since then. I’m passionate about performing, storytelling, and using my body as a language of expression.
         </p>
       </div>
     </div>
+
     <div class="parent-flex">
       <div class="child-flex">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+          Lately, I’ve been drawn toward the fashion world — especially fashion marketing. I love how style tells a story, much like choreography. I’m excited by the idea of combining creative direction with branding, turning bold ideas into something visual and unforgettable. Whether I’m dancing or designing, I care about aesthetics, emotion, and making a statement.
         </p>
       </div>
       <div class="child-flex">
         <img
           src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+          alt="Aneliese Graphic"
         />
       </div>
     </div>
   </body>
 </html>
+
